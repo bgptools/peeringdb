@@ -40,6 +40,8 @@ type Facility struct {
 	Country          string       `json:"country"`
 	State            string       `json:"state"`
 	Zipcode          string       `json:"zipcode"`
+	Latitude         float64      `json:"latitude"`
+	Longitude        float64      `json:"longitude"`
 }
 
 // getFacilityResource returns a pointer to a facilityResource structure
